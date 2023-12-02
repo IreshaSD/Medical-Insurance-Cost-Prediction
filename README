@@ -1,0 +1,35 @@
+Insurance Cost Prediction using Linear Regression
+
+# Overview
+
+This Python script focuses on predicting insurance costs using a Linear Regression model. It loads an insurance dataset, explores its characteristics, visualizes data distributions, encodes categorical features, performs model training using Linear Regression, and evaluates the model's performance.
+
+# Description
+
+* The script imports necessary Python libraries (numpy, pandas, matplotlib, seaborn, and sklearn) for data handling, visualization, modeling, and evaluation. It reads  an insurance dataset from a CSV file, explores the dataset's structure, handles missing values, and analyzes statistical measures.
+
+* Data visualization involves plotting age distribution using different methods (displot and distplot), visualizing sex distribution using countplot, and encoding categorical features ('sex', 'smoker', 'region') into numerical values.
+
+* Model training using Linear Regression involves splitting the data into training and test sets, fitting the model, and evaluating it using R-squared values on both training and test data. Lastly, it demonstrates a predictive system for estimating insurance costs based on input parameters.
+
+# Features
+
+* Data loading and exploration
+* Handling missing values
+* Statistical analysis of dataset
+* Visualizing data distributions
+* Encoding categorical features
+* Model training and evaluation
+* Predictive system for insurance cost estimation
+
+# Usage
+
+* Clone the repository.
+* Ensure necessary Python libraries are installed (numpy, pandas, matplotlib, seaborn, sklearn).
+* Run the script in a Python environment.
+* Follow code comments and outputs to understand dataset characteristics, model training, and predictive system.
+
+# Notes
+
+* Ensure the 'insurance.csv' file path is correctly specified.
+* Adjust model hyperparameters or explore additional model types for better predictions.
